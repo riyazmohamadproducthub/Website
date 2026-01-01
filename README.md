@@ -1,3 +1,4 @@
+index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -138,6 +139,7 @@
     }
   </style>
 </head>
+
 <body>
 
 <header>
@@ -151,54 +153,4 @@
 
 <section class="hero">
   <h1>Build Once. Deploy Instantly. Scale Anytime.</h1>
-  <p>A clean, professional website in a single file. Upload and go live.</p>
-  <button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
-    Get Started
-  </button>
-</section>
-
-<section id="features">
-  <h2>Features</h2>
-  <div class="features">
-    <div class="card">⚡ Fast & Lightweight</div>
-    <div class="card">📱 Fully Responsive</div>
-    <div class="card">🔍 SEO Ready</div>
-    <div class="card">🚀 Easy to Scale</div>
-  </div>
-</section>
-
-<section id="about">
-  <div class="about">
-    <h2>About</h2>
-    <p>
-      This single-file website is engineered for rapid deployment and long-term
-      scalability. It can evolve into a full product platform without rewrites.
-    </p>
-  </div>
-</section>
-
-<section id="contact">
-  <h2>Contact</h2>
-  <form onsubmit="handleSubmit(event)">
-    <input type="text" placeholder="Your Name" required>
-    <input type="email" placeholder="Your Email" required>
-    <textarea rows="4" placeholder="Message" required></textarea>
-    <button type="submit">Submit</button>
-  </form>
-</section>
-
-<footer>
-  © 2026 YourBrand. All rights reserved.
-</footer>
-
-<script>
-  function handleSubmit(e) {
-    e.preventDefault();
-    alert("Form submitted successfully!");
-  }
-</script>
-
-</body>
-</html>
-# Website
-Its ready to deploy website
+  <p>A clean, professional website in a single file
